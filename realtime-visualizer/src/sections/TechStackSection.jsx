@@ -10,12 +10,13 @@ import {
 const techStack = [
   {
     title: "React",
-    description: "Frontend library for building UI components.",
+    description: "My library of choice for building user interfaces.",
     image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
   },
   {
     title: "D3.js",
-    description: "Powerful library for data-driven visualizations.",
+    description:
+      "Powerful library for data-driven visualizations. It's my first attempt at using D3.js.",
     image: "https://d3js.org/logo.svg",
   },
   {
@@ -25,29 +26,30 @@ const techStack = [
   },
   {
     title: "TensorFlow",
-    description: "End-to-end open-source machine learning platform.",
+    description:
+      "End-to-end open-source machine learning platform. It is required for the Python scripts in the backend to run.",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
   },
 
   {
     title: "Node.js",
-    description: "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    description: "My go-to for building scalable network applications.",
     image: "https://static.cdnlogo.com/logos/n/79/node-js.svg",
-  },
-  {
-    title: "Python",
-    description:
-      "High-level programming language for general-purpose programming.",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   },
   {
     title: "WebSocket",
     description:
-      "Protocol for full-duplex communication channels over a single TCP connection.",
+      "Protocol for real-time communication between the client and server. It was also my first attempt at using WebSocket.",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/c/cd/WebSocket_colored_logo.svg",
+  },
+  {
+    title: "Python",
+    description:
+      "Favourite programming language for data science and machine learning.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   },
 ];
 
@@ -98,7 +100,7 @@ const TechStackSection = () => {
                   marginBottom: 2,
                 }}
               />
-              <CardContent sx={{ textAlign: "center" }}>
+              <CardContent sx={{ textAlign: "left" }}>
                 <Typography variant="h6" component="div">
                   {title}
                 </Typography>

@@ -19,7 +19,14 @@ function App() {
         }}
       >
         <p>
-          Made with ❤️ by <span style={{ fontWeight: "bold" }}>Vin Souza</span>
+          Made with ❤️ by{" "}
+          <a
+            href="https://vinsouza.com"
+            target="_blank"
+            style={{ fontWeight: "bold", color: "#F16529" }}
+          >
+            Vin Souza
+          </a>
         </p>
       </footer>
     </div>
