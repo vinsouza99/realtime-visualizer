@@ -15,8 +15,6 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import "../index.css"; // Import your CSS file
-import DataUsageIcon from "@mui/icons-material/DataUsage";
-import Logo from "../assets/logo.png";
 
 function ResponsiveAppBar() {
   const theme = useTheme();
@@ -44,7 +42,7 @@ function ResponsiveAppBar() {
       <Toolbar>
         <Box display="flex" alignItems="center" sx={{ flexGrow: 1 }}>
           <img
-            src={Logo} // Replace with your logo path
+            src="/assets/Logo.png" // Replace with your logo path
             alt="Logo"
             width={50}
             height={50}

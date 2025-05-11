@@ -4,6 +4,7 @@
   3. The server sends back metadata (like face center coordinates) over the WebSocket.
  */
 const WebSocket = require("ws");
+const path = require("path");
 
 const wss = new WebSocket.Server({ port: 8080 });
 
@@ -42,8 +43,8 @@ wss.on("connection", (ws) => {
       return;
     }
     const { spawn } = require("child_process");
-    const python = spawn("python", [pythonScript], {
-      cwd: process.cwd(), // Explicitly set the working directory
+    const python = spawn("python3", [pythonScript], {
+      cwd: path.join(__dirname), // the directory of server.js
     });
     python.stdin.write(base64Image);
     python.stdin.end();

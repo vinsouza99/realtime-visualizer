@@ -2,7 +2,6 @@ import React from "react";
 import { Grid, Typography, Button } from "@mui/material";
 import "./ErrorMessage.css";
 import RefreshIcon from "@mui/icons-material/Refresh";
-import WebsocketError from "../assets/websocket-error.png";
 import { useTheme } from "@mui/material";
 
 const ErrorMessage = () => {
@@ -18,7 +17,7 @@ const ErrorMessage = () => {
     >
       <Grid item xs={12} className="error-message-content">
         <img
-          src={WebsocketError}
+          src="/assets/websocket-error.png"
           alt="WebSocker Error"
           style={{
             width: "100%",

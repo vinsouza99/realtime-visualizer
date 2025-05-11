@@ -12,13 +12,13 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 const links = [
   {
     title: "GitHub",
-    url: "https://github.com/vinsouza99",
+    url: "https://github.com/vinsouza99/realtime-visualizer",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
   },
   {
     title: "Docker Image",
-    url: "https://github.com/vinsouza99",
+    url: "https://hub.docker.com/repository/docker/vinsouza/realtime-visualization/general",
     image:
       "https://raw.githubusercontent.com/withastro/docs/96f42b8019cb3e42acdf3cf43359c52f04db22b1/public/logos/docker.svg",
   },

@@ -1,5 +1,4 @@
 import { Typography, Grid, useTheme } from "@mui/material";
-import SystemDesign from "../assets/system-design.png";
 
 const ArchitectureSection = () => {
   const theme = useTheme();
@@ -39,7 +38,7 @@ const ArchitectureSection = () => {
           }}
         >
           <img
-            src={SystemDesign}
+            src="/assets/system-design.png"
             alt="System Architecture"
             style={{
               width: "100%",
