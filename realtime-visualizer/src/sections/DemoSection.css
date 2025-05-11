@@ -1,0 +1,96 @@
+#main {
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.video-wrapper {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.heatmap-video {
+  filter: brightness(0.6);
+}
+.heatmap-video {
+  filter: brightness(0.6);
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+#visualization-options-header {
+  margin: 0 auto 1rem auto;
+  padding: 0;
+}
+.visualization-options-wrapper {
+  background-color: rgba(256, 256, 256, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.option-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.option-button label {
+  display: block;
+}
+.data-display-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  height: 100%;
+}
+.start-button,
+.stop-button {
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 25%;
+  min-width: 120px;
+  aspect-ratio: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.stop-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.stop-button:hover {
+  background-color: #ff1a1a;
+}
+.stop-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.start-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.start-button:hover {
+  background-color: #45a049;
+}
+.start-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+@media screen and (max-width: 640px) {
+  #main {
+    padding: 2rem 0;
+  }
+}

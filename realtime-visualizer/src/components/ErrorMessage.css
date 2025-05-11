@@ -1,0 +1,10 @@
+.error-message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d74f15;
+  font-size: 16px;
+}
+#refresh-button:hover {
+  color: white;
+}
