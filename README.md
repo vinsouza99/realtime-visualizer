@@ -45,5 +45,16 @@ node server.js
 - opencv-python-headless
   
 ### Running the Docker image
-Simply run:
-```docker pull vinsouza/realtime-visualization:latest```
+First, pull the image from Docker Hub:
+
+```
+docker pull vinsouza/realtime-visualization:latest
+```
+
+Next, run the image with two ports: 5173 (frontend) and 8080 (backend)
+
+```
+docker run -p 5173:5173 -p 8080:8080 vinsouza/realtime-visualization
+```
+
+
